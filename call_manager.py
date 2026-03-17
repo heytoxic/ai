@@ -354,7 +354,7 @@ class CallManager:
 
         # In real impl: create conference room and return invite link
         # For Twilio Conferences:
-        join_link = f"https://t.me/your_bot?start=join_{call_id}"
+        join_link = f"https://t.me/ToxicCallsBot?start=join_{call_id}"
         session.join_link = join_link
         return join_link
 
